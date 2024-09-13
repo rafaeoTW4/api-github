@@ -1,0 +1,64 @@
+
+
+/* Aplica fundo preto e texto branco ao corpo da página */
+body {
+    background-color: black; /* Fundo preto para o corpo */
+    color: white; /* Texto branco */
+    margin: 0; /* Remove a margem padrão */
+    /* font-family: 'Anton', sans-serif; Define a fonte para o corpo   */
+}
+
+/* Estilo da navbar */
+.navbar-custom {
+    background-color: black; /* Fundo preto para a navbar */
+    padding: 4rem 10rem; /* Aumenta o espaçamento interno para aumentar a altura */
+    height: 80px; /* Define uma altura fixa para a navbar */
+}
+
+.navbar-brand img {
+    height: 60px; /* Ajuste a altura da imagem conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+    margin-right: 12px; /* Espaço entre a imagem e o título */
+}
+
+.navbar-title {
+    color: white; /* Cor do texto para contraste com o fundo preto */
+    font-size: 36px; /* Tamanho da fonte */
+    margin: 0; /* Remove margem padrão */
+}
+
+/* Estilo para a tag main */
+main {
+    background-color: black !important; /* Fundo preto para a main */
+    color: white; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo da tabela dentro da tag main */
+.table {
+    background-color: black !important; /* Fundo preto para a tabela */
+    color: white !important; /* Texto branco na tabela */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo das células da tabela */
+.table th, .table td {
+    background-color: #333 !important; /* Fundo escuro para as células da tabela */
+    color: white !important; /* Texto branco nas células */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #444; /* Borda mais escura para contraste */
+}
+
+/* Estilo das linhas alternadas da tabela */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #222 !important; /* Cor de fundo para linhas alternadas */
+}
+
+/* Estilo do título na seção main */
+main h1 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    color: white; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
